@@ -50,8 +50,8 @@ SVM|	0.76|	0.815
 
 We experimented with different clustering algorithms, but the best results were produced by K-Means Clustering and Spectral Clustering. K-Means was able to produce stable two-cluster and four-cluster solutions.
 
-#### Four-Cluster Solution
-The thematic difference between the clusters is intriguing. 
+#### Four-Cluster Solution:
+The thematic differences between the clusters are rather intriguing. 
 
 * For the first cluster, the following semantic components are relevant: "celebration of love and beauty", and "death." At the same time, "farewell to love" is more pertinent to this cluster than to other clusters.
 
