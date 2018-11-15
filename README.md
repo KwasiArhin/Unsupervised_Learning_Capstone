@@ -31,6 +31,7 @@ SVM	|0.980|	0.9779
 **ALTERNATIVE FEATURE GENERATION:** document vectors (Word2Vec)
 
 #### Results: :bar_chart:
+
 Models | Training Set Roc_Auc Scores |Test Set Roc_Auc Scores
 ------------ | ------------- |-------------
 Logistic Regression (Lasso)|	0.9277|	0.9576
@@ -39,8 +40,9 @@ SVM	|0.893|	0.8691
 Our word2vec model did not perform the best which was to be expected. For this kind of model to work well, we would need a much larger corpus of texts: in our case we only had 573 samples. Using a pretrained model, e.g. Google's, might not be the greatest idea since our corpus contains a very specific vocabulary with a large portion of works dating back to the Renaissance.
 
 ## Task Two. Identification of "Love" Poems :cupid:
-**FEATURES:** tf idf matrix with dimensionality reduced by applying Latent Semantic Analysis (LSA).
+Here, we used tf idf LSA features to predict whether or not a poem is going to be a "love" poem.
 
+#### Results: :bar_chart:
 Models | Training Set Roc_Auc Scores |Test Set Roc_Auc Scores
 ------------ | ------------- |-------------
 Logistic Regression (Lasso)|	0.7493|	0.812
